@@ -315,12 +315,14 @@ export default function CategoriesSection() {
               transition: "all 0.3s ease",
             }}
             onHoverStart={(e) => {
-              const target = e.currentTarget as HTMLElement;
+              const target = e.currentTarget as HTMLElement | null;
+              if (!target) return;
               target.style.boxShadow =
                 "0 6px 20px rgba(118, 75, 162, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.15)";
             }}
             onHoverEnd={(e) => {
-              const target = e.currentTarget as HTMLElement;
+              const target = e.currentTarget as HTMLElement | null;
+              if (!target) return;
               target.style.boxShadow =
                 "0 4px 12px rgba(118, 75, 162, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1)";
             }}

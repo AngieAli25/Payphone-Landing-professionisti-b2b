@@ -189,13 +189,15 @@ export default function TrustSection() {
                 scale: 1.02,
               }}
               onHoverStart={(e) => {
-                const target = e.currentTarget as HTMLElement;
+                const target = e.currentTarget as HTMLElement | null;
+                if (!target) return;
                 target.style.boxShadow = "0 12px 30px rgba(168, 85, 247, 0.15), 0 0 0 2px rgba(168, 85, 247, 0.1)";
                 target.style.borderColor = "rgba(168, 85, 247, 0.3)";
                 target.style.backgroundImage = "linear-gradient(to bottom, white, rgba(249, 250, 251, 1))";
               }}
               onHoverEnd={(e) => {
-                const target = e.currentTarget as HTMLElement;
+                const target = e.currentTarget as HTMLElement | null;
+                if (!target) return;
                 target.style.boxShadow = "0 4px 12px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.02)";
                 target.style.borderColor = "rgba(0, 0, 0, 0.08)";
                 target.style.backgroundImage = "linear-gradient(to bottom, white, rgba(249, 250, 251, 0.5))";
