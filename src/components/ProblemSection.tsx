@@ -142,7 +142,7 @@ export default function ProblemSection() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              Scarica l'App Gratuitamente
+              Scarica l&apos;App Gratuitamente
               <ArrowDownTrayIcon className="w-5 h-5" />
             </motion.a>
           </div>

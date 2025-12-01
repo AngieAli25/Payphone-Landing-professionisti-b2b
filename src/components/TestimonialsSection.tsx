@@ -82,9 +82,9 @@ export default function TestimonialsSection() {
 
               {/* Quote */}
               <blockquote className="text-gray-700 text-lg leading-relaxed">
-                <span className="text-4xl text-[#8B4FA3] leading-none">"</span>
+                <span className="text-4xl text-[#8B4FA3] leading-none">&ldquo;</span>
                 {testimonial.quote}
-                <span className="text-4xl text-[#8B4FA3] leading-none">"</span>
+                <span className="text-4xl text-[#8B4FA3] leading-none">&rdquo;</span>
               </blockquote>
             </motion.div>
           ))}
@@ -124,9 +124,9 @@ export default function TestimonialsSection() {
 
                 {/* Quote */}
                 <blockquote className="text-gray-700 text-base leading-relaxed">
-                  <span className="text-3xl text-[#8B4FA3] leading-none">"</span>
+                  <span className="text-3xl text-[#8B4FA3] leading-none">&ldquo;</span>
                   {testimonial.quote}
-                  <span className="text-3xl text-[#8B4FA3] leading-none">"</span>
+                  <span className="text-3xl text-[#8B4FA3] leading-none">&rdquo;</span>
                 </blockquote>
               </motion.div>
             ))}

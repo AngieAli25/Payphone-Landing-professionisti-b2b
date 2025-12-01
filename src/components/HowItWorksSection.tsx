@@ -75,7 +75,7 @@ export default function HowItWorksSection() {
 
           {/* Subheadline */}
           <p className="text-lg text-gray-600">
-            Scarica, configura e inizia a guadagnare in meno di un'ora
+            Scarica, configura e inizia a guadagnare in meno di un&apos;ora
           </p>
         </motion.div>
 
@@ -203,7 +203,7 @@ export default function HowItWorksSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            Scarica l'App Gratuitamente
+            Scarica l&apos;App Gratuitamente
             <ArrowDownTrayIcon className="w-6 h-6" />
           </motion.a>
         </motion.div>

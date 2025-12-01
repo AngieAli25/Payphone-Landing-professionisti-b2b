@@ -104,7 +104,7 @@ export default function FinalCTASection() {
               fontWeight: 400,
             }}
           >
-            Scarica l'app gratuita, configura il tuo profilo in 30 minuti e
+            Scarica l&apos;app gratuita, configura il tuo profilo in 30 minuti e
             inizia a monetizzare le tue competenze. Migliaia di professionisti
             si affidano già a Payphone.
           </motion.p>

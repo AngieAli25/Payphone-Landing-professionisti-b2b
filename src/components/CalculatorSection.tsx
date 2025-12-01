@@ -262,7 +262,7 @@ export default function CalculatorSection() {
               </motion.div>
             </div>
 
-            <div className="text-sm text-white/90 mb-3">⭐ ALL'ANNO</div>
+            <div className="text-sm text-white/90 mb-3">⭐ ALL&apos;ANNO</div>
             <div className="text-4xl font-bold text-white">
               €<Counter to={Math.round(yearlyEarnings)} />
             </div>
@@ -280,7 +280,7 @@ export default function CalculatorSection() {
           <div className="text-center max-w-4xl mx-auto">
             <p className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 leading-tight">
               Stai perdendo €<Counter to={Math.round(yearlyEarnings)} />{" "}
-              all'anno rispondendo gratis.
+              all&apos;anno rispondendo gratis.
             </p>
             <p className="text-xl md:text-2xl text-gray-700 font-light leading-relaxed">
               Con Payphone, ogni chiamata diventa guadagno immediato.
@@ -304,7 +304,7 @@ export default function CalculatorSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
           >
-            Scarica l'App Gratuitamente
+            Scarica l&apos;App Gratuitamente
             <motion.div
               whileHover={{ y: [0, 4, 0] }}
               transition={{ duration: 0.4, repeat: 2, ease: "easeInOut" }}

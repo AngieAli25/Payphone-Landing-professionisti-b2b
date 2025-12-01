@@ -178,7 +178,7 @@ export default function StatsSection() {
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300"
             >
-              <span>Scarica l'App Gratuitamente</span>
+              <span>Scarica l&apos;App Gratuitamente</span>
               <ArrowDownTrayIcon className="w-5 h-5" />
             </motion.a>
           </div>
